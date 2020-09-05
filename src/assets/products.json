@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Aspirine",
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "name": "Zanax",
+        "inStock": false
+    },
+    {
+        "id": 3,
+        "name": "Protein",
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "name": "Vitamin",
+        "inStock": true
+    }
+]
