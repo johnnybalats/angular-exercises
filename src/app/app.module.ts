@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { ProductsModule } from './products/products.module';
 import { CountriesModule } from './countries/countries.module';
+import { CountryService } from './countries/country.service';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,10 @@ import { CountriesModule } from './countries/countries.module';
     BrowserModule,
     ProductsModule,
     CountriesModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
-  providers: [],
+  providers: [CountryService],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
